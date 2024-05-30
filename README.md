@@ -9,6 +9,9 @@ Some information about this dataset. </br>
 ![dataset](data.png)
 2. Training the first BERT model to "Re-Label" our dataset. </br>
 3. Training the second BERT model to predict the given description of news. 
-
-
+## Run
+1. Install some packages we need.
+```cpp=
+pip install -r requirements.txt
+```
 

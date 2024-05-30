@@ -6,7 +6,7 @@ In these days, there are more and more complex types of news, such as crime, pol
 1. Dataset Selection and Preparation. </br>
 We select dataset from this [page](https://www.kaggle.com/datasets/timilsinabimal/newsarticlecategories). But this dataset is "single-label", so we need to "re-label" it. </br>
 Some information about this dataset. </br>
-![dataset](https://hackmd.io/_uploads/S1bt5JI4C.png)
+![dataset](data.png)
 2. Training the first BERT model to "Re-Label" our dataset. </br>
 3. Training the second BERT model to predict the given description of news. 
 

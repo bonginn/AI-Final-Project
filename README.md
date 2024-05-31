@@ -6,9 +6,11 @@ In these days, there are more and more complex types of news, such as crime, pol
 1. Dataset Selection and Preparation. </br>
 We select dataset from this [page](https://www.kaggle.com/datasets/timilsinabimal/newsarticlecategories). But this dataset is "Single-Label", so we need to "Re-Label" it. </br>
 Some information about this dataset. </br>
-![dataset](data.png)
+![dataset](./Picture/data.png)
 2. Training the first BERT model to "Re-Label" our dataset. </br>
 3. Training the second BERT model to predict the given description of news. 
+## Train Model
+You can run file "MultiLabelModel.ipynb" to train the BERT model. It may take a long time for training. After this, you can save .pt file in 'Model'. Or, you can directly download the trained model from the following link : 
 ## Run
 1. Clone our repository to your local machine.
 ```cpp=

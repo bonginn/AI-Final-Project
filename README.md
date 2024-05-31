@@ -10,7 +10,7 @@ Some information about this dataset. </br>
 2. Training the first BERT model to "Re-Label" our dataset. </br>
 3. Training the second BERT model to predict the given description of news. 
 ## Train Model
-You can run file "MultiLabelModel.ipynb" to train the BERT model. It may take a long time for training. After this, you can save .pt file in 'Model'. Or, you can directly download the trained model from the following link : 
+You can run file "MultiLabelModel.ipynb" to train the BERT model. It may take a long time for training. After this, you can save .pt file in 'Model'. Or, you can directly download the trained model from [HERE](https://drive.google.com/file/d/15CcUbjFIZtIBTVe6X2kuVq63n4-XgDtA/view?usp=sharing).
 ## Run
 1. Clone our repository to your local machine.
 ```cpp=

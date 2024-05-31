@@ -6,7 +6,8 @@ In these days, there are more and more complex types of news, such as crime, pol
 1. Dataset Selection and Preparation. </br>
 We select dataset from this [page](https://www.kaggle.com/datasets/timilsinabimal/newsarticlecategories). But this dataset is "Single-Label", so we need to "Re-Label" it. </br>
 Some information about this dataset. </br>
-![dataset](./Picture/data.png)
+![dataset](./Picture/data.png) </br>
+Total Number of Category : 41
 2. Training the first BERT model to "Re-Label" our dataset. </br>
 3. Training the second BERT model to predict the given description of news. 
 ## Train Model
@@ -16,7 +17,7 @@ You can download the trained model from [HERE](https://drive.google.com/file/d/1
 ```cpp=
 git clone git@github.com:bonginn/AI-FInal-Project.git
 ```
-2. Put trained model into Model folder.
+2. Put the trained model into Model folder.
 3. Install some packages we need.
 ```cpp=
 pip install -r requirements.txt

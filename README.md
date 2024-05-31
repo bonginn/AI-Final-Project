@@ -29,7 +29,7 @@ cd Demo
 python3 demo.py
 ```
 After this step, you will see the following web : </br>
-![web](./Picture/web.png) </br>
+![web](./Picture/web.png) </br> 
 Then, you can enter your news description in the input block, and you will see the predicted categories. </br>
 ![result](./Picture/result.png) </br>
 

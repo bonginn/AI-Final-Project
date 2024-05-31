@@ -10,17 +10,18 @@ Some information about this dataset. </br>
 2. Training the first BERT model to "Re-Label" our dataset. </br>
 3. Training the second BERT model to predict the given description of news. 
 ## Train Model
-You can run file "MultiLabelModel.ipynb" to train the BERT model. It may take a long time for training. After this, you can save .pt file in 'Model'. Or, you can directly download the trained model from [HERE](https://drive.google.com/file/d/15CcUbjFIZtIBTVe6X2kuVq63n4-XgDtA/view?usp=sharing).
+You can download the trained model from [HERE](https://drive.google.com/file/d/15CcUbjFIZtIBTVe6X2kuVq63n4-XgDtA/view?usp=sharing). Of course, you can train our model by yourself, but it may take a long time.
 ## Run
 1. Clone our repository to your local machine.
 ```cpp=
-git clone https://github.com/bonginn/AI-FInal-Project
+git clone git@github.com:bonginn/AI-FInal-Project.git
 ```
-2. Install some packages we need.
+2. Put trained model into Model folder.
+3. Install some packages we need.
 ```cpp=
 pip install -r requirements.txt
 ```
-3. Run the demo code.
+4. Run the demo code.
 ```cpp=
 python3 demo.py
 ```

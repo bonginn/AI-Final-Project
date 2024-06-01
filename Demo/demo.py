@@ -73,7 +73,7 @@ def process_text():
         threshold = 0.5
         scores = final_output[0]
         sorted_indices = np.argsort(scores)[::-1] 
-        pred = [categoryList[i] for i in sorted_indices if scores[i] > threshold][:5]  # 获取前五个大于阈值的类别
+        pred = [categoryList[i] for i in sorted_indices if scores[i] > threshold][:5]  
         if len(pred) == 0:
             pred = [categoryList[np.argmax(final_output, axis=1)[0]]]
 

@@ -32,6 +32,8 @@ After this step, you will see the following web : </br>
 ![web](./Picture/web.png) </br> 
 Then, you can enter your news description in the input block, and you will see the predicted categories. </br>
 ![result](./Picture/result.png) </br>
+## Presentation
+Here is our presentation [slide](https://drive.google.com/file/d/1NT1R1ZFeiG-KBNIZrbz7IwhJBL3O9W9R/view) and [video](https://www.youtube.com/watch?v=IqfbLB4gr6w).
 
 
 
